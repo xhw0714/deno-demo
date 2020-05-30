@@ -2,10 +2,6 @@
 
 # dependencies
 **/node_modules
-# roadhog-api-doc ignore
-/src/utils/request-temp.js
-_roadhog-api-doc
-
 # production
 **/dist
 /.vscode
@@ -27,18 +23,3 @@ package-lock.json
 *.log
 functions/*
 .temp/**
-
-# umi
-.umi
-.umi-production
-
-# screenshot
-screenshot
-.firebase
-.eslintcache
-
-build
-
-/config/target.js
-
-/screenshot
