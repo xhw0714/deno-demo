@@ -1,0 +1,3260 @@
+listen in http://localhost:8000
+[0m[1m[31merror[0m: Uncaught AddrInUse: Address already in use (os error 98)
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90m$deno$/ops/dispatch_json.ts[39m[90m:[39m[90m43[39m[90m:[39m[90m11[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90m$deno$/ops/dispatch_json.ts[39m[90m:[39m[90m72[39m[90m:[39m[90m10[39m[90m)[39m
+    at [1m[3m[90mObject.listen[39m[23m[22m [90m([39m[90m$deno$/ops/net.ts[39m[90m:[39m[90m51[39m[90m:[39m[90m10[39m[90m)[39m
+    at [1m[3m[90mlisten[39m[23m[22m [90m([39m[90m$deno$/net.ts[39m[90m:[39m[90m152[39m[90m:[39m[90m22[39m[90m)[39m
+    at [1m[3mApplication.serve[23m[22m ([36mhttps://deno.land/std@0.53.0/http/server.ts[39m:[33m261[39m:[33m20[39m)
+    at [1m[3mApplication.listen[23m[22m ([36mhttps://deno.land/x/oak/application.ts[39m:[33m283[39m:[33m20[39m)
+    at [36mfile:///opt/control/app.ts[39m:[33m65[39m:[33m11[39m
+listen in http://localhost:8080
+[0m[1m[31merror[0m: Uncaught AddrInUse: Address already in use (os error 98)
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90m$deno$/ops/dispatch_json.ts[39m[90m:[39m[90m43[39m[90m:[39m[90m11[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90m$deno$/ops/dispatch_json.ts[39m[90m:[39m[90m72[39m[90m:[39m[90m10[39m[90m)[39m
+    at [1m[3m[90mObject.listen[39m[23m[22m [90m([39m[90m$deno$/ops/net.ts[39m[90m:[39m[90m51[39m[90m:[39m[90m10[39m[90m)[39m
+    at [1m[3m[90mlisten[39m[23m[22m [90m([39m[90m$deno$/net.ts[39m[90m:[39m[90m152[39m[90m:[39m[90m22[39m[90m)[39m
+    at [1m[3mApplication.serve[23m[22m ([36mhttps://deno.land/std@0.53.0/http/server.ts[39m:[33m261[39m:[33m20[39m)
+    at [1m[3mApplication.listen[23m[22m ([36mhttps://deno.land/x/oak/application.ts[39m:[33m283[39m:[33m20[39m)
+    at [36mfile:///opt/control/app.ts[39m:[33m65[39m:[33m11[39m
+listen in http://localhost:8080
+GET http://47.92.250.9:8080/ - 4ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.14f05313.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 4ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 25ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 73ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 160ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 338ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 81ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 426ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 48ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 40ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 210ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 410ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 570ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 44ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 218ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 287ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 479ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+GET http://47.92.250.9:8080/ - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 5ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.14f05313.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/fonts/ionicons.143146fa.woff2 - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 167ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 42ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 307ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 388ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+ConnectionReset: Connection reset by peer (os error 104) 
+    at unwrapResponse ($deno$/ops/dispatch_minimal.ts:63:11)
+    at Object.sendAsyncMinimal ($deno$/ops/dispatch_minimal.ts:106:10)
+    at async Object.write ($deno$/ops/io.ts:65:18)
+    at async BufWriter.write (https://deno.land/std@0.53.0/io/bufio.ts:510:29)
+    at async writeResponse (https://deno.land/std@0.53.0/http/_io.ts:259:15)
+    at async ServerRequest.respond (https://deno.land/std@0.53.0/http/server.ts:97:7)
+    at async Application.#handleRequest (https://deno.land/x/oak/application.ts:226:7)
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 4ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.14f05313.js - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.14f05313.js.map - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js.map - 17ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js.map - 3ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/fonts/ionicons.143146fa.woff2 - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/updatesite - 2ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"mBHOW4"[39m,
+    id: [32m"HZZo0z"[39m,
+    title: [32m"系统服务"[39m,
+    urlName: [32m"devsystem"[39m,
+    url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m,
+    options: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ],
+    webUrl: [32m"http://devsystem.yxgzsj.com"[39m,
+    _index: [33m0[39m,
+    _rowKey: [33m1[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"mBHOW4"[39m,
+  siteId: [32m"EORO3D"[39m,
+  optionId: [32m""[39m,
+  title: [32m"停止"[39m,
+  link: [32m"http://devwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&project=devwework&dowha..."[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"mBHOW4"[39m,
+    siteId: [32m"EORO3D"[39m,
+    optionId: [32m""[39m,
+    title: [32m"停止"[39m,
+    link: [32m"http://devwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&project=devwework&dowha..."[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"mBHOW4"[39m,
+  siteId: [32m"EORO3D"[39m,
+  optionId: [32m""[39m,
+  title: [32m"部署后端"[39m,
+  link: [32m"http://devwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=dev_server_head&module=yx-wewor..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 2ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"mBHOW4"[39m,
+    siteId: [32m"EORO3D"[39m,
+    optionId: [32m""[39m,
+    title: [32m"部署后端"[39m,
+    link: [32m"http://devwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=dev_server_head&module=yx-wewor..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/addsite - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    id: [32m""[39m,
+    title: [32m"企业服务"[39m,
+    urlName: [32m"testwork"[39m,
+    url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m,
+    options: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ],
+    webUrl: [32m"http://testwork.yxgzsj.com"[39m,
+    _index: [33m0[39m,
+    _rowKey: [33m1[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/addsite - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    id: [32m""[39m,
+    title: [32m"企业微信"[39m,
+    urlName: [32m"testwork"[39m,
+    url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m,
+    options: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ],
+    webUrl: [32m"http://testwork.yxgzsj.com"[39m,
+    _index: [33m0[39m,
+    _rowKey: [33m1[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"QwAM8d"[39m,
+  optionId: [32m""[39m,
+  title: [32m"启动"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"QwAM8d"[39m,
+    optionId: [32m""[39m,
+    title: [32m"启动"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"QwAM8d"[39m,
+  optionId: [32m""[39m,
+  title: [32m"重启"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"QwAM8d"[39m,
+    optionId: [32m""[39m,
+    title: [32m"重启"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"QwAM8d"[39m,
+  optionId: [32m""[39m,
+  title: [32m"停止"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"QwAM8d"[39m,
+    optionId: [32m""[39m,
+    title: [32m"停止"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwork&dowh..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"QwAM8d"[39m,
+  optionId: [32m""[39m,
+  title: [32m"部署后端"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunserver_header&module=yx-w..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"QwAM8d"[39m,
+    optionId: [32m""[39m,
+    title: [32m"部署后端"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunserver_header&module=yx-w..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"QwAM8d"[39m,
+  optionId: [32m""[39m,
+  title: [32m"部署前端"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunweb_head&module=yx-work&p..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"QwAM8d"[39m,
+    optionId: [32m""[39m,
+    title: [32m"部署前端"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunweb_head&module=yx-work&p..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"dg1YuD"[39m,
+  optionId: [32m""[39m,
+  title: [32m"启动"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 2ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"dg1YuD"[39m,
+    optionId: [32m""[39m,
+    title: [32m"启动"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"dg1YuD"[39m,
+  optionId: [32m""[39m,
+  title: [32m"重启"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"dg1YuD"[39m,
+    optionId: [32m""[39m,
+    title: [32m"重启"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"dg1YuD"[39m,
+  optionId: [32m""[39m,
+  title: [32m"停止"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"dg1YuD"[39m,
+    optionId: [32m""[39m,
+    title: [32m"停止"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yxstart&&project=testwework&do..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{
+  serverId: [32m"AVOqsM"[39m,
+  siteId: [32m"dg1YuD"[39m,
+  optionId: [32m""[39m,
+  title: [32m"部署后端"[39m,
+  link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunserver_header&module=yx-w..."[39m,
+  id: [32m""[39m
+}
+POST http://47.92.250.9:8080/api/addoptions - 1ms
+{
+  type: [32m"json"[39m,
+  value: {
+    serverId: [32m"AVOqsM"[39m,
+    siteId: [32m"dg1YuD"[39m,
+    optionId: [32m""[39m,
+    title: [32m"部署后端"[39m,
+    link: [32m"http://testwork.yxgzsj.com:18080/generic-webhook-trigger/invoke?token=yuxunserver_header&module=yx-w..."[39m,
+    id: [32m""[39m
+  }
+}
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 50ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 83ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 47ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 94ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 201ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 398ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 959ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 90ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 45ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 57ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 62ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 197ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 56ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 195ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 394ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 201ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 47ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 206ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 195ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 3ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 42ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 220ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 418ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 550ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 588ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 394ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 572ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 49ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 192ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 394ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 597ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 201ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 593ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 49ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 35ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 213ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 410ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 212ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 416ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 40ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 200ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 211ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 408ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 596ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 208ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 406ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 593ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 49ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 33ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 215ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 429ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 593ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 46ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 205ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 408ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 40ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 45ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 213ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 411ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 585ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 23ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 218ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 434ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 592ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 213ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 412ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 593ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 201ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 408ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 206ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 410ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 23ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 206ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 409ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 574ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 25ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 416ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 209ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 408ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 581ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 204ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2021ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 208ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 404ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 588ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 230ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 416ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 583ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 218ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 416ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 212ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 409ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 588ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 407ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 584ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 202ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 401ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 582ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 209ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 405ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 600ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 202ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 406ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 580ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2018ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 218ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 416ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 402ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 580ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 203ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 405ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 217ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 433ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 213ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 421ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 24ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 197ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 207ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 409ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 211ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 410ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+GET http://47.92.250.9:8080/ - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.3be1744f.js - 3ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 3ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 4ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.3be1744f.js.map - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js.map - 14ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 98ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 298ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 460ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 192ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 389ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 561ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 33ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 191ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 389ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 578ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 200ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 395ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 584ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 205ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 395ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 200ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 398ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 574ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 394ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 204ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2018ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2019ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 196ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 400ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 582ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 192ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 578ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 193ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 389ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 594ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 199ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 403ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 191ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 594ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 193ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 195ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 583ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 187ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 383ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 580ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 184ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 380ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 584ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 195ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 392ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 592ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 200ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 590ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 42ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 193ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2033ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 198ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 400ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 587ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 198ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 399ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 583ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 203ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 403ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 391ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 595ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 203ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 400ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 583ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 202ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 398ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 589ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 391ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 599ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+GET http://47.92.250.9:8080/ - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.b08e5ff0.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 5ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.b08e5ff0.js.map - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js.map - 14ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 32ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 138ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 347ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 365ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 219ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 21ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 44ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 190ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 1019ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+BrokenPipe: Broken pipe (os error 32)   
+    at unwrapResponse ($deno$/ops/dispatch_minimal.ts:63:11)
+    at Object.sendAsyncMinimal ($deno$/ops/dispatch_minimal.ts:106:10)
+    at async Object.write ($deno$/ops/io.ts:65:18)
+    at async BufWriter.write (https://deno.land/std@0.53.0/io/bufio.ts:510:29)
+    at async writeResponse (https://deno.land/std@0.53.0/http/_io.ts:259:15)
+    at async ServerRequest.respond (https://deno.land/std@0.53.0/http/server.ts:97:7)
+    at async Application.#handleRequest (https://deno.land/x/oak/application.ts:226:7)
+GET http://47.92.250.9:8080/ - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/ - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.b08e5ff0.js - 3ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 4ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/favicon.ico - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+GET http://47.92.250.9:8080/ - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/app.97758f17.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/app.b08e5ff0.js - 6ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/chunk-vendors.1bc8cbb4.css - 8ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/chunk-vendors.7be9a8d9.js - 9ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/css/about.9134e20a.css - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/js/about.890f5f91.js - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 215ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 418ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 149ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 337ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 2027ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 183ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 382ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 591ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 199ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 585ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 214ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 412ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 191ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 395ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 592ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 26ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 214ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 408ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 194ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 396ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 588ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 22ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 217ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 417ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 28ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 30ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 192ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 390ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 592ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 217ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 413ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 31ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 196ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 398ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 586ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 27ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 215ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 420ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/pool.json
+./db/server.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+GET http://47.92.250.9:8080/api/getserver - 2ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 17ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 16ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 218ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 426ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 0ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 19ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m" http://devwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 14ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 15ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 71ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devsystem.yxgzsj.com"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 20ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/wework/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 214ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/system/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 415ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/wework/debug"[39m } }
+./db/server.json
+GET http://47.92.250.9:8080/api/getserver - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+./db/pool.json
+GET http://47.92.250.9:8080/api/getpool - 1ms
+{ type: [32m"undefined"[39m, value: [2mundefined[22m }
+POST http://47.92.250.9:8080/api/fetch - 18ms
+{ type: [32m"json"[39m, value: { url: [32m"http://devwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http://47.92.250.9:8080/api/fetch - 29ms
+{ type: [32m"json"[39m, value: { url: [32m"http://testwork.yxgzsj.com/api/v0/debug"[39m } }
+POST http:
